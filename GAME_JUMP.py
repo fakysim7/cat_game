@@ -3,7 +3,7 @@ from sys import exit
 from random import randint
 
 
-def disp_score():
+def disp_bambaleila():
     current_time = int(pygame.time.get_ticks()/1000) - start_time
     score_surf = test_font.render(f'Score: {current_time}', False, (60,60,60))
     score_rect = score_surf.get_rect(center = (400,50))
